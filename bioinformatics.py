@@ -139,9 +139,13 @@ for i in range(N):
 highestMotifScore = sorted(results.keys())[-1]
 BestMotifs = results[highestMotifScore]
 
+print ("The highest scoring motifs are")
 print (BestMotifs)
+print ("\n")
+print ("The score is")
 print (highestMotifScore)
 print ("\n")
+
 print ("**Currently using hard-coded DNA string. Could be altered to take user input instead.")
 
 
